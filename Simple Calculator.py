@@ -1,3 +1,4 @@
+#Simple Calculator
 def add(a,b):
     return a+b
 def sub(a,b):
@@ -6,7 +7,6 @@ def mul(a,b):
     return a*b
 def div(a,b):
     return a/b
-
 
 print("Simple Python Calculator")
 print("Operations:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit")
