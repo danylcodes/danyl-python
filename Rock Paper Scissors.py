@@ -30,7 +30,7 @@ getgame=str(input("Enter B to start playing, Q to quit."))
 getgame=getgame.casefold()
 while getgame=="b":
     user_move=playing()
-    user_move.casefold()
+    user_move=user_move.casefold()
 
 #Quit Game
     if user_move=="q":
