@@ -27,7 +27,7 @@ cscore=0
 
 #Starting a game
 getgame=str(input("Enter B to start playing, Q to quit."))
-getgame.casefold()
+getgame=getgame.casefold()
 while getgame=="b":
     user_move=playing()
     user_move.casefold()
